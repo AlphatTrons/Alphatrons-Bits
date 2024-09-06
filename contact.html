@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - BITS Pilani Dubai Campus</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <!-- Header Section (same as index.html) -->
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="images/logo_BITS-Pilani.png" alt="BITS Pilani Dubai Campus">
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="departments.html">Departments</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <main>
+        <section class="contact">
+            <h1>Contact Us</h1>
+            <form action="submit-form.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer (same as index.html) -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About BITS Pilani Dubai Campus</h3>
+                <p>BITS Pilani Dubai Campus is a premier institution offering world-class education in various disciplines.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="departments.html">Departments</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h3>Contact Us</h3>
+                <p>Email: info@bits-dubai.ac.ae</p>
+                <p>Phone: +971 4 275 3700</p>
+                <div class="socials">
+                    <a href="https://www.facebook.com/bitsdubai/" target="_blank">
+                        <img src="images/facebook-logo.png" alt="Facebook">
+                    </a>
+                    <a href="https://twitter.com/bitspilanidubai?lang=en" target="_blank">
+                        <img src="images/x.png" alt="X">
+                    </a>
+                    <a href="https://www.instagram.com/bitspilanidubai/?hl=en" target="_blank">
+                        <img src="images/insta-logo.png" alt="Instagram">
+                    </a>
+                    <a href="https://ae.linkedin.com/school/bitspilanidubai/" target="_blank">
+                        <img src="images/linkedin.png" alt="LinkedIn">
+                    </a>           
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 BITS Pilani Dubai Campus. All Rights Reserved.
+        </div>
+    </footer>
+</body>
+</html>
